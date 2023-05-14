@@ -1,5 +1,5 @@
 from flask import Flask, render_template, Response
-import HAT
+import HAT_module as HAT
 app =Flask(__name__)
 
 @app.route('/')
